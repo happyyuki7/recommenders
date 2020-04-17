@@ -50,7 +50,7 @@ implementation:
     amlEnvironment:
       python:
         condaDependenciesFile: sar_conda.yaml
-    additionalFiles:
+    additionalIncludes:
       - ../../../../../../directory_beyond_repo
     command: [python, reco_utils/azureml/azureml_designer_modules/entries/map_entry.py]
     args:
