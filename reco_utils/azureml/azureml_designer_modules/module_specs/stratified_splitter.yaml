@@ -1,7 +1,7 @@
-moduleIdentifier: 
+amlModuleIdentifier: 
   namespace: microsoft.com/cat
   moduleName: Stratified Splitter 
-  moduleVersion: 1.1.0
+  moduleVersion: 1.1.1
 metadata:
   annotations:
     tags: ["Recommenders"]
@@ -45,7 +45,7 @@ implementation:
     amlEnvironment:
       python:
         condaDependenciesFile: sar_conda.yaml
-    additionalFiles:
+    additionalIncludes:
       - ../../../
     command: [python, reco_utils/azureml/azureml_designer_modules/entries/stratified_splitter_entry.py]
     args:
