@@ -1,6 +1,6 @@
 amlModuleIdentifier: 
-  namespace: example.com/modules/xmwang
-  moduleName: Precision at K 2
+  namespace: example.com/modules
+  moduleName: Precision at K 3
   moduleVersion: 0.0.1
 description: "Precision at K metric from Recommenders repo: https://github.com/Microsoft/Recommenders."
 metadata:
