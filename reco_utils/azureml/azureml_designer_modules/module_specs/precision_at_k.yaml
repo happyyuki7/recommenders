@@ -1,7 +1,7 @@
-moduleIdentifier: 
-  namespace: microsoft.com/cat
-  moduleName: Precision at K
-  moduleVersion: 1.1.0
+amlModuleIdentifier: 
+  namespace: example.com/modules/xmwang
+  moduleName: Precision at K 2
+  moduleVersion: 0.0.1
 description: "Precision at K metric from Recommenders repo: https://github.com/Microsoft/Recommenders."
 metadata:
   annotations:
@@ -50,7 +50,7 @@ implementation:
     amlEnvironment:
       python:
         condaDependenciesFile: sar_conda.yaml
-    additionalFiles:
+    additionalIncludes:
       - ../../../
     command: [python, reco_utils/azureml/azureml_designer_modules/entries/precision_at_k_entry.py]
     args:
