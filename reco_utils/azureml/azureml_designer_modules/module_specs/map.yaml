@@ -1,7 +1,7 @@
 amlModuleIdentifier: 
-  namespace: microsoft.com/cat
-  moduleName: MAP
-  moduleVersion: 1.1.1
+  namespace: example.com/modules/xmwang
+  moduleName: MAP 2
+  moduleVersion: 0.0.1
 description: "Mean Average Precision at K metric from Recommenders repo: https://github.com/Microsoft/Recommenders."
 metadata:
   annotations:
