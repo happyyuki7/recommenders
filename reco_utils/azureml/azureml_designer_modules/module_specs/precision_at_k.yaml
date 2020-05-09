@@ -1,6 +1,6 @@
 amlModuleIdentifier: 
-  namespace: microsoft.com/newmodules
-  moduleName: Precision at K 5
+  namespace: microsoft.com/newmodules/xmwang
+  moduleName: Precision at K 6
   moduleVersion: 0.0.1
 description: "Precision at K metric from Recommenders repo: https://github.com/Microsoft/Recommenders."
 metadata:
