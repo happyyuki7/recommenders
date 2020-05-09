@@ -1,4 +1,4 @@
-moduleIdentifier: 
+amlModuleIdentifier: 
   namespace: example.com/modules/xmwang
   moduleName: nDCG 2
   moduleVersion: 0.0.1
