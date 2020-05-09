@@ -1,5 +1,5 @@
 amlModuleIdentifier: 
-  namespace: example.com/newModules
+  namespace: example.com/newmodules
   moduleName: MAP 4
   moduleVersion: 0.0.1
 description: "Mean Average Precision at K metric from Recommenders repo: https://github.com/Microsoft/Recommenders."
