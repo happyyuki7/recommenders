@@ -50,7 +50,7 @@ implementation:
     amlEnvironment:
       python:
         condaDependenciesFile: sar_conda.yaml
-    additionalFiles:
+    additionalIncludes:
       - ../../../
     command: [python, reco_utils/azureml/azureml_designer_modules/entries/ndcg_entry.py]
     args:
