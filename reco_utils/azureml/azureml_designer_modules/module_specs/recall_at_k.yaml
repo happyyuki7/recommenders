@@ -1,6 +1,6 @@
 amlModuleIdentifier: 
-  namespace: example.com/newmodules
-  moduleName: Recall at K 4
+  namespace: microsoft.com/newmodules
+  moduleName: Recall at K 5
   moduleVersion: 0.0.1
 description: "Recall at K metric from Recommenders repo: https://github.com/Microsoft/Recommenders."
 metadata:
