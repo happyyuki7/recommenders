@@ -1,6 +1,6 @@
 amlModuleIdentifier: 
-  namespace: example.com/newmodules
-  moduleName: SAR Scoring 4
+  namespace: microsoft.com/newmodules
+  moduleName: SAR Scoring 5
   moduleVersion: 0.0.1
 description: |
     Python SAR Recommenders
