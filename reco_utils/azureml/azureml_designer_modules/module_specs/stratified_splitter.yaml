@@ -1,6 +1,6 @@
 amlModuleIdentifier: 
-  namespace: example.com/modules/xmwang
-  moduleName: Stratified Splitter 2
+  namespace: example.com/modules
+  moduleName: Stratified Splitter 3
   moduleVersion: 0.0.1
 metadata:
   annotations:
