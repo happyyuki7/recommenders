@@ -1,6 +1,6 @@
 amlModuleIdentifier: 
-  namespace: example.com/modules/xmwang
-  moduleName: nDCG 2
+  namespace: example.com/modules
+  moduleName: nDCG 3
   moduleVersion: 0.0.1
 description: "Normalized Discounted Cumulative Gain (nDCG) at K metric from Recommenders repo: https://github.com/Microsoft/Recommenders."
 metadata:
