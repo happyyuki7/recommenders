@@ -1,7 +1,7 @@
 amlModuleIdentifier: 
-  namespace: microsoft.com/newmodules
-  moduleName: SAR Scoring 5
-  moduleVersion: 0.0.1
+  namespace: microsoft.com/cat
+  moduleName: SAR Scoring
+  moduleVersion: 1.1.2
 description: |
     Python SAR Recommenders
     repo: https://github.com/Microsoft/Recommenders
