@@ -1,6 +1,6 @@
 amlModuleIdentifier: 
-  namespace: microsoft.com/cat/fake
-  moduleName: SAR Scoring
+  namespace: microsoft.com/cat
+  moduleName: SAR Scoring 0
   moduleVersion: 1.1.6
 description: |
     test for description
