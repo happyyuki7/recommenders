@@ -1,6 +1,6 @@
 amlModuleIdentifier: 
-  namespace: example.com/modules
-  moduleName: Stratified Splitter 3
+  namespace: microsoft.com/newmodules
+  moduleName: Stratified Splitter 5
   moduleVersion: 0.0.1
 metadata:
   annotations:

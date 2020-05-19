@@ -1,6 +1,6 @@
 amlModuleIdentifier: 
-  namespace: example.com/modules
-  moduleName: Recall at K 3
+  namespace: microsoft.com/newmodules/xmwang
+  moduleName: Recall at K 6
   moduleVersion: 0.0.1
 description: "Recall at K metric from Recommenders repo: https://github.com/Microsoft/Recommenders."
 metadata:

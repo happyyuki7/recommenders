@@ -1,6 +1,6 @@
 amlModuleIdentifier: 
-  namespace: example.com/modules
-  moduleName: SAR Training 3
+  namespace: microsoft.com/newmodules
+  moduleName: SAR Training 5
   moduleVersion: 0.0.1
 metadata:
   annotations:

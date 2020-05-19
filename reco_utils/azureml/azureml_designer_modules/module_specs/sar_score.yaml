@@ -1,10 +1,9 @@
 amlModuleIdentifier: 
-  namespace: example.com/modules
-  moduleName: SAR Scoring 3
+  namespace: microsoft.com/cat
+  moduleName: SAR Scoring
   moduleVersion: 0.0.1
 description: |
-    Python SAR Recommenders
-    repo: https://github.com/Microsoft/Recommenders
+    test for description
 metadata:
   annotations:
     tags: ["Recommenders"]
