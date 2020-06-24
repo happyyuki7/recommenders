@@ -49,7 +49,7 @@ implementation:
   container:
     amlEnvironment:
       python:
-        condaDependenciesFile: reco_utils/azureml/azureml_designer_modules/entries/sar_conda.yaml
+        condaDependenciesFile: reco_utils/azureml/azureml_designer_modules/module_specs/sar_conda.yaml
     additionalIncludes:
       - ../../../
     sourceDirectory: ../../../../
