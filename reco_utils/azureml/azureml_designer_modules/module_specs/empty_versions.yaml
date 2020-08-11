@@ -5,12 +5,12 @@ amlModuleIdentifier:
   description: An AzureMLModule with empty versions. 
 inputs:
 - name: columns
-  type: String
+  type: DataFrameDirectory
 - name: input
-  type: String
+  type: DataFrameDirectory
 outputs:
 - name: output
-  type: AnyFile
+  type: DataFrameDirectory
 implementation:
     container:
         image: ttthree/modules:latest
