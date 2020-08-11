@@ -14,7 +14,7 @@ outputs:
 implementation:
     container:
         image: ttthree/modules:latest
-        command: []
+        command: [python, reco_utils/azureml/azureml_designer_modules/entries/empty_versions.py]
         args:
         - dotnet
         - /home/etools/eselect.dll
