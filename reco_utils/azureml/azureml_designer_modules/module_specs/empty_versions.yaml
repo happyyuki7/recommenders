@@ -1,0 +1,24 @@
+amlModuleIdentifier:
+  moduleName: empty versions
+  moduleVersion: 0.0.1
+  namespace: microsoft.com/azureml/samples
+  description: An AzureMLModule with empty versions. 
+inputs:
+- name: columns
+  type: String
+- name: input
+  type: String
+outputs:
+- name: output
+  type: AnyFile
+implementation:
+    container:
+        image: ttthree/modules:latest
+        command:
+        args:
+        - dotnet
+        - /home/etools/eselect.dll
+        - -f
+        - inputValue: columns
+        - inputPath: input
+        - outputPath: output
