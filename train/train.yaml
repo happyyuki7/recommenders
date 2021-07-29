@@ -1,0 +1,33 @@
+﻿$schema: http://azureml/sdk-2-0/CommandComponent.json
+name: component_for_new_ux_flow
+version: 0.0.6
+display_name: component_for_new_ux_flow
+type: CommandComponent
+description: component for new ux flow
+tags: {category: Component Tutorial, contact: amldesigner@microsoft.com}
+inputs:
+  num_epochs:
+    type: Integer
+    description: Number of metrics per child run
+    optional: true
+    default: 20
+  delay_seconds:
+    type: Float
+    description: Delay after logging a metric
+    optional: true
+    default: 20
+  model:
+    type: String
+    description: Model dict
+    optional: false
+  resume_from:
+    type: String
+    description: Location of the model or checkpoint files from where to resume the training
+    optional: true
+
+environment: 
+  conda:
+    conda_dependencies_file: conda.yaml
+command: >-
+        python test/conditional_hp.py [--num_epochs {inputs.num_epochs}] [--delay_seconds {inputs.delay_seconds}]
+        --model {inputs.model} [--resume_from {inputs.resume_from}]
